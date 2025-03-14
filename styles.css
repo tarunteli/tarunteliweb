@@ -14,7 +14,7 @@ header {
     animation: slideIn 1.5s ease-in-out;
 }
 
-.logo {
+.tarun {
     width: 250px;
     display: block;
     margin: 0 auto 20px;
@@ -85,7 +85,8 @@ nav ul li a:hover {
 
 }
 body {
-    background: url('background.jpg') center/cover no-repeat;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .hero h1 {
