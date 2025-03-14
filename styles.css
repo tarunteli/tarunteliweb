@@ -21,6 +21,7 @@ header {
     animation: fadeIn 2s ease-in-out;
 }
 
+
 nav {
     margin-top: 10px;
 }
@@ -56,29 +57,28 @@ nav ul li a:hover {
     background: white;
     color: #003366;
     border-radius: 5px;
-
-    nav ul {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-nav ul li {
-    list-style: none;
-    margin: 10px;
 }
 
 @media screen and (max-width: 600px) {
     nav ul {
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
-
+    
     nav ul li {
         width: 100%;
         text-align: center;
+        margin: 5px 0;
+    }
+    
+    nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
     }
 }
+
 
 }
 body {
