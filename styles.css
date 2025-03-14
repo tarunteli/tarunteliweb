@@ -60,7 +60,10 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 600px) {
-    nav ul {
+    nav {
+        background: #003366;
+    }
+}
         flex-direction: column;
         align-items: center;
         width: 100%;
