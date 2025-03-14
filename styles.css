@@ -82,6 +82,9 @@ nav ul li a:hover {
     }
 }
 
+nav {
+    background: url('your-image-url.jpg') no-repeat center center/cover;
+}
 
 }
 body {
